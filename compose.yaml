@@ -1,0 +1,7 @@
+services: 
+  web: 
+    build:
+     context: .
+     target: builder
+    ports: 
+      - '45678:45678'
